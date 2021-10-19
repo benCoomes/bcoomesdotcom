@@ -1,0 +1,36 @@
+.coomes-resume .header {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.coomes-resume .section {
+    margin-bottom: 2rem;
+}
+
+.coomes-resume .section__content {
+    margin-left: 1rem;
+}
+
+.coomes-resume .education__details {
+    text-align: right;
+}
+
+.coomes-resume .employeer__location {
+    text-align: right;
+}
+
+.coomes-resume .work {
+    margin-left: 1rem;
+}
+
+.coomes-resume .work__role-list {
+    margin-left: 1rem;
+}
+
+.coomes-resume .employeer__title {
+    margin-bottom: 0;
+}
+
+.coomes-resume .role__dates {
+    text-align: right;
+}
