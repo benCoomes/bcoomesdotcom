@@ -1,6 +1,31 @@
+:root {
+    --body-bg-color: #fff7eb;
+    --body-color: #1a1d23;
+    --alt-bg-color: #1e2749;
+    --alt-color: #fafaff;
+}
+
+@media print {
+    :root {
+        --body-bg-color: white;
+        --body-color: black;
+        --alt-bg-color: white;
+        --alt-color: black;
+    }
+}
+
+.coomes-resume {
+    color: var(--body-color);
+    background-color: var(--body-bg-color);
+}
+
 .coomes-resume .header {
     text-align: center;
-    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: var(--alt-bg-color);
+    color: var(--alt-color);
 }
 
 .coomes-resume .section {
