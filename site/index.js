@@ -2,7 +2,16 @@ const view = {
   header: {
     title: "Benjamin Coomes",
     location: "Columbia, SC",
-    email: "bcoomes96@gmail.com",
+    links: [
+      {
+        icon: "media/LinkedIn.png",
+        link: "https://www.linkedin.com/in/ben-coomes"
+      },
+      {
+        icon: "media/Github.png",
+        link: "https://github.com/benCoomes"
+      }
+    ]
   },
   summary: {
     title: "Summary",

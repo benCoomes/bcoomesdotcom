@@ -17,7 +17,13 @@
     <div class="container">
       <h1 class="header__title">{{header.title}}</h1>
       <div class="header__line">{{header.location}}</div>
-      <div class="header__line">{{header.email}}</div>
+      <div>
+        {{#header.links}}
+        <a href="{{link}}" class="link-icon__link">
+          <img src="{{icon}}" class="link-icon__icon">
+        </a>
+        {{/header.links}}
+      </div>
     </div>
   </header>
   <main class="body container">

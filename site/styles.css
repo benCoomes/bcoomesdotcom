@@ -22,10 +22,26 @@
 .coomes-resume .header {
     text-align: center;
     padding-top: 1rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
     margin-bottom: 0.5rem;
     background-color: var(--alt-bg-color);
     color: var(--alt-color);
+}
+
+.coomes-resume .header__line {
+    margin-bottom: 1rem;
+}
+
+.coomes-resume .link-icon__link {
+    text-decoration: none;
+}
+
+.coomes-resume .link-icon__link ~ .link-icon__link  {
+    margin-left: 1rem;
+}
+
+.coomes-resume .link-icon__icon {
+    height: 2rem;
 }
 
 .coomes-resume .section {
