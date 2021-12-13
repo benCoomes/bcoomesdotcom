@@ -8,7 +8,7 @@ const view = {
         link: "https://www.linkedin.com/in/ben-coomes"
       },
       {
-        icon: "media/Github.png",
+        icon: "media/GitHub.png",
         link: "https://github.com/benCoomes"
       }
     ]
